@@ -23,7 +23,7 @@ class ZipCodesNoSqlSeeder extends Seeder
         $count = 0;
         $data = array();
         $insertData = array();
-        \App\Models\Zip::truncate();
+        Zip::truncate();
         foreach (file($filename) as $line) {
             $r = explode('|', $line);
             $id = (string) $r[0];
@@ -86,7 +86,7 @@ class ZipCodesNoSqlSeeder extends Seeder
         if (isset($chunkData) && !empty($chunkData)) {
             $c = 0;
             foreach ($chunkData as $chunkVal) {
-                \App\Models\Zip::insert($chunkVal);
+                Zip::insert($chunkVal);
                 // DB::table('zips')->updateOrInsert($chunkVal);
             }
         }
