@@ -12,14 +12,14 @@ I need say thanks for the oportunity in this challenge, I'm hope can get the opo
 <table>
 <tr><th>My solution Times</th><th>Example Times</th></tr>
 <tr>
-    <td><img src="img/1.png" width="300"></td>
-    <td><img src="img/2.png" width="300"></td>
+    <td><img src="img/1.png" width="400"></td>
+    <td><img src="img/2.png" width="400"></td>
 </tr>
 
-<tr><th>Local Times</th><th></th></tr>
+<tr><th>Local Times</th><th>My Reponse example</th></tr>
 <tr>
-    <td><img src="img/local.png" width="300"></td>
-    <td><img src="img/response.png" width="300"></td>
+    <td><img src="img/local.png" width="400"></td>
+    <td><img src="img/response.png" width="400"></td>
 </tr>
 
 </table>
