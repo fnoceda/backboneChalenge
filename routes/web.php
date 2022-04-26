@@ -18,7 +18,7 @@ use App\Http\Controllers\NoSqlController;
 
 // php -S localhost:8000 -t public
 
-// $router->get('/', function () use ($router) { return $router->app->version(); });
+$router->get('/version', function () use ($router) { return $router->app->version(); });
 
 // $router->get('/nosql/{id}', function () use ($router) { return NoSqlController::getData($id); });
 
