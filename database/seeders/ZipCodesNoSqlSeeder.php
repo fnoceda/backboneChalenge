@@ -19,7 +19,7 @@ class ZipCodesNoSqlSeeder extends Seeder
 
         $filename = ('./public/data/CPdescarga.txt');
         // $filename = ('./public/data/zip_codes.txt');
-
+        // $filename = ('./public/data/example.txt');
         $count = 0;
         $data = array();
         $insertData = array();

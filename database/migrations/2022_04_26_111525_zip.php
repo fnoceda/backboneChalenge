@@ -14,7 +14,7 @@ class Zip extends Migration
     public function up()
     {
         Schema::create('zips', function (Blueprint $table) {
-            $table->string('zip', 5)->primary();
+            $table->string('id', 5)->primary();
             $table->json('data')->default('{}');
         });
     }
