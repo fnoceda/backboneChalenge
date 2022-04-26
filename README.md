@@ -6,7 +6,7 @@ Because requeriments explained the time is important, I made a table in the data
 On the ZipCodesNoSqlSeeder I passed the TXT to JSON, and after that I save the fields with a chunk array to a limit of 1000 register per time.<br /><br />
 So, the method to get the data is very simple. This is because the data is formated already. I think it is a good solution, because data needs to be saved in a format that will be used.<br /><br />
 Of course, that means duplication of data, but in nosql formats that is normal. Time is the most  important factor.<br /><br />
-Also I add a json response when the zip code don't exist or don't pass, the example response a 404 page, I think is bettter a json respnose, because is a rest api<br /><br />
+Also I add a json response when the zip code don't exist or don't pass, the example response a 404 page, I think is bettter a json response, because is a rest api<br /><br />
 <br />
 I must say thanks for this oportunity to take part in  this challenge. I hope to get the chance to work in your company.<br /><br />
 ## Times
