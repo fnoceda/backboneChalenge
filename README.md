@@ -10,6 +10,12 @@ Off course, that minds duplication of data, but in nosql formats that is normal.
 
 I need say thanks for the oportunity in this challenge, I'm hope can get the oportunity for know your company.<br /><br />
 
+# Tech Documentation
+For this project I was Install, on a Digital Ocean Server.<br /><br />
+PHP 7.4.29 (cli) (built: Apr 12 2022 10:55:38) ( NTS )<br />
+mysql  Ver 15.1 Distrib 10.5.15-MariaDB, for Linux (x86_64) using readline 5.1<br />
+flipbox/lumen-generator: ^9.1<br />
+laravel/lumen-framewor": ^8.3.1<br />
 
 
 ## Official Documentation
