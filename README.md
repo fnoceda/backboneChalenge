@@ -7,7 +7,6 @@ On the ZipCodesNoSqlSeeder I passed the TXT to JSON, and after that I save the f
 So, the method to get the data is very simple. This is because the data is formated already. I think it is a good solution, because data needs to be saved in a format that will be used.<br />
 Of course, that means duplication of data, but in nosql formats that is normal. Time is the most  important factor.<br />
 I must say thanks for this oportunity to take part in  this challenge. I hope to get the chance to work in your company.<br /><br />
-I need say thanks for the oportunity in this challenge, I'm hope can get the oportunity for know your company.<br /><br />
 ## Times
 <table>
 <tr><th>My solution Times</th><th>Example Times</th></tr>
