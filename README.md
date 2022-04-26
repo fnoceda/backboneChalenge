@@ -5,7 +5,7 @@ I used mysql for database. I also downloaded zip codes for Mexico in txt format,
 Because requeriments explained the time is important, I made a table in the database called ZIPS. The table has 2 columns, one is ID and the other one is DATA.<br />
 On the ZipCodesNoSqlSeeder I passed the TXT to JSON, and after that I save the fields with a chunk array to a limit of 1000 register per time.<br />
 So, the method to get the data is very simple. This is because the data is formated already. I think it is a good solution, because data needs to be saved in a format that will be used.<br />
-Of course, that means duplication of data, but in nosql formats that is normal. Time is the most  important factor.<br />
+Of course, that means duplication of data, but in nosql formats that is normal. Time is the most  important factor.<br /><br />
 I must say thanks for this oportunity to take part in  this challenge. I hope to get the chance to work in your company.<br /><br />
 ## Times
 <table>
