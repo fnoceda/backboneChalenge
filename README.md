@@ -1,14 +1,29 @@
 # BackBone Challenge
 
-The project is writered in the Lumen micro framework, you can see the oficial documentation down, is espetially for rest api applications. <br /><br />
-I'm used mysql for database, I was download the zip codes from Mexico in txt format, in the folder seeders/ZipCodesNoSqlSeeder.php you can get the code for save in the database.<br /><br />
-Because the requeriments explain the time is important, I made a table in the database ZIPS, the table have 2 columns, one is ID and the other one is DATA.<br /><br />
-On the ZipCodesNoSqlSeeder I was pass the TXT to JSON, and after that I save the fields with a chunk array to limited 1000 register per time.<br /><br />
-So, the method for getData is very simple, because the data is formated before, I think is a good solution, because the data need saved in the format will be used.<br /><br />
-Off course, that minds duplication of data, but in nosql formats that is normal. Time is most important.<br /><br /><br />
-
-
+The project is written in the Lumen micro framework. You can see the official documentation down. It is espetially for the rest api applications.<br />
+I used mysql for database. I also downloaded zip codes for Mexico in txt format, in the folder seeders/ZipCodesNoSqlSeeder.php , you can get the code saved in the database.<br />
+Because requeriments explained the time is important, I made a table in the database called ZIPS. The table has 2 columns, one is ID and the other one is DATA.<br />
+On the ZipCodesNoSqlSeeder I passed the TXT to JSON, and after that I save the fields with a chunk array to a limit of 1000 register per time.<br />
+So, the method to get the data is very simple. This is because the data is formated already. I think it is a good solution, because data needs to be saved in a format that will be used.<br />
+Of course, that means duplication of data, but in nosql formats that is normal. Time is the most  important factor.<br />
+I must say thanks for this oportunity to take part in  this challenge. I hope to get the chance to work in your company.<br /><br />
 I need say thanks for the oportunity in this challenge, I'm hope can get the oportunity for know your company.<br /><br />
+## Times
+<table>
+<tr><th>My solution Times</th><th>Example Times</th></tr>
+<tr>
+    <td><img src="img/1.png" width="200"></td>
+    <td><img src="img/2.png" width="200"></td>
+</tr>
+
+<tr><th>Local Times</th><th></th></tr>
+<tr>
+    <td><img src="img/local.png" width="200"></td>
+    <td><img src="img/response.png" width="200"></td>
+</tr>
+
+</table>
+
 
 # Tech Documentation
 For this project I was Install, on a Digital Ocean Server.<br /><br />
