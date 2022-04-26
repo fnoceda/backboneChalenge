@@ -22,7 +22,7 @@ $router->get('/version', function () use ($router) { return $router->app->versio
 
 // $router->get('/nosql/{id}', function () use ($router) { return NoSqlController::getData($id); });
 
-$router->get('nosql/{id}', 'NoSqlController@index');
+$router->get('nosql[/{id}]', 'NoSqlController@index');
 
 
 $router->get('/key', function() {
