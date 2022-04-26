@@ -1,11 +1,15 @@
 # BackBone Challenge
 
-The project is writered in the Lumen micro framework, you can see the oficial documentation down, is espetially for rest api applications.
-I'm used mysql for database, I was download the zip codes from Mexico in txt format, in the folder seeders/ZipCodesNoSqlSeeder.php you can get the code for save in the database.
-Because the requeriments explain the time is important, I made a table in the database ZIPS, the table have 2 columns, one is ID and the other one is DATA
-On the ZipCodesNoSqlSeeder I was pass the TXT to JSON, and after that I save the fields with a chunk array to limited 1000 register per time.
-So, the method for getData is very simple, because the data is formated before, I think is a good solution, because the data need saved in the format will be used.
-Off course, that minds duplication of data, but in nosql formats that is normal. Time is most important.
+The project is writered in the Lumen micro framework, you can see the oficial documentation down, is espetially for rest api applications. <br />
+I'm used mysql for database, I was download the zip codes from Mexico in txt format, in the folder seeders/ZipCodesNoSqlSeeder.php you can get the code for save in the database.<br />
+Because the requeriments explain the time is important, I made a table in the database ZIPS, the table have 2 columns, one is ID and the other one is DATA.<br />
+On the ZipCodesNoSqlSeeder I was pass the TXT to JSON, and after that I save the fields with a chunk array to limited 1000 register per time.<br />
+So, the method for getData is very simple, because the data is formated before, I think is a good solution, because the data need saved in the format will be used.<br />
+Off course, that minds duplication of data, but in nosql formats that is normal. Time is most important.<br /><br />
+
+
+I need say thanks for the oportunity in this challenge, I'm hope can get the oportunity for know your company.<br />
+
 
 
 ## Official Documentation
