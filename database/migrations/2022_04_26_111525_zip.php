@@ -26,6 +26,7 @@ class Zip extends Migration
      */
     public function down()
     {
-        //
+        Schema::disableForeignKeyConstraints();
+        Schema::dropIfExists('zips');
     }
 }
