@@ -12,6 +12,14 @@ class NoSqlController extends Controller
         // Log::info('index => ' . $r->id);
 
         $zip = Zip::find($r->id);
+
+
+        if($zip){
+            return $zip;
+        }else{
+            return response()->json(['error' => 'Zip Code Not found'], 404);
+        }
+
         return $zip->data;
     }
 }
