@@ -15,7 +15,7 @@ class NoSqlController extends Controller
 
 
         if($zip){
-            return response()->json($zip->data, 200);
+            return $zip->data;
         }else{
             return response()->json(['error' => 'Zip Code Not found'], 404);
         }
