@@ -29,10 +29,10 @@ class ZipCodesNoSqlSeeder extends Seeder
             $id = (string) $r[0];
             $zip = array(
                 'zip_code' => (string) $r[0],
-                'locality' => self::applyChallengeFormat($r[4]),
+                'locality' => self::applyChallengeFormat($r[5]),
                 'federal_entity' => array(
                     'key' => (int) $r[7],
-                    'name' => self::applyChallengeFormat($r[5]),
+                    'name' => self::applyChallengeFormat($r[4]),
                     'code' => (isEmpty($r[9])) ? null : (int) $r[9]
                 ),
                 'settlements' => array(
