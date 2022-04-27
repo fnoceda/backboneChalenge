@@ -41,7 +41,7 @@ class ZipCodesNoSqlSeeder extends Seeder
                         'name' => self::applyChallengeFormat($r[1]),
                         'zone_type' => self::applyChallengeFormat($r[13]),
                         'settlement_type' => array(
-                            'name' => ucwords($r[2])
+                            'name' => ucfirst($r[2])
                         )
                     )
                 ),
